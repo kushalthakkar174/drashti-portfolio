@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✦ Interactive Portfolio Application
 
-## Getting Started
+A modern, responsive portfolio application built to present professional experience, analytics capability, and operational expertise through refined UI/UX and motion-driven interaction.
 
-First, run the development server:
+This project demonstrates frontend engineering practices including component architecture, animation integration, responsive layout strategy, and third-party communication handling.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## Project Representation
+
+**Portfolio Owner**
+Drashti Thakkar
+MBA — Business Analytics
+Operations & Data Professional
+
+**Application Developer**
+Kushal Thakkar
+Software Developer
+
+GitHub
+https://github.com/kushalthakkar174
+
+---
+
+## Technology Stack
+
+**Core Framework**
+
+* Next.js (App Router)
+* React
+* TypeScript
+
+**Styling & Layout**
+
+* Tailwind CSS
+
+**Motion & Interaction**
+
+* Framer Motion
+* Swiper
+
+**Integration**
+
+* EmailJS (contact communication)
+
+---
+
+## Feature Highlights
+
+* Scroll-driven animated sections
+* Parallax hero experience
+* Expandable experience timeline
+* Skill visualization components
+* Testimonial carousel
+* Email-integrated contact form
+* Mobile adaptive navigation
+* Semantic structured layout
+
+---
+
+## Local Development Setup
+
+Clone repository
+
+```
+git clone https://github.com/kushalthakkar174/YOUR_REPO_NAME.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Start development server
 
-## Learn More
+```
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Create production build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Contact Form Configuration
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project uses EmailJS for inbound communication.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To configure:
+
+1. Create EmailJS account
+2. Configure email service & template
+3. Replace credentials in code
+
+```
+SERVICE_ID
+TEMPLATE_ID
+PUBLIC_KEY
+```
+
+---
+
+## Architectural Considerations
+
+* Component isolation for scalability
+* Motion rendering optimized for smooth interaction
+* Responsive grid-driven layout
+* Accessibility-aligned semantic structure
+* Client-side email handling without backend overhead
+
+---
+
+## Planned Enhancements
+
+* Analytics instrumentation
+* Blog/insight module
+* Dark theme toggle
+* Performance score optimization
+* Backend message persistence
+
+---
+
+## Attribution
+
+Application engineered and maintained by: Kushal Thakkar
+
+Portfolio content and professional representation owned by: Drashti Thakkar
+
+---
+
+## License
+
+Repository shared for demonstration and professional showcase purposes.
