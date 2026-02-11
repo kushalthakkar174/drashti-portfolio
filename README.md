@@ -63,7 +63,7 @@ https://github.com/kushalthakkar174
 Clone repository
 
 ```
-git clone https://github.com/kushalthakkar174/YOUR_REPO_NAME.git
+git clone https://github.com/kushalthakkar174/drashti-portfolio.git
 ```
 
 Install dependencies
